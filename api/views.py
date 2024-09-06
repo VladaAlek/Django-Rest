@@ -8,4 +8,5 @@ from .serializers import ItemSerializer
 @api_view(['GET'])
 def getData(request):
     items =Item.objects.all()
-    return Response(person)
+    serializer = ItemSerializer(items, many=True)
+    return Response(serializer.data)
