@@ -28,4 +28,13 @@ displaying data in public API or within the project
 - Item.objects.create(name="Item #1")
 - check DB content 1) iterate items = Item.objects.all() 2) print(items)
 exit()
+![Populating Data](myproject/images/populating_data.png)
+
+
+#### Results
+![API Format](myproject/images/rest_presenting_data_api_format.png)
+![JSON Format](myproject/images/rest_presenting_data_json_format.png)
+
+#### Add Data with API
+
 
