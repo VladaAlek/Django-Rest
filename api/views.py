@@ -7,5 +7,5 @@ from .serializers import ItemSerializer
 
 @api_view(['GET'])
 def getData(request):
-    person = {'name':'Denis', 'age': 28}
+    items =Item.objects.all()
     return Response(person)
