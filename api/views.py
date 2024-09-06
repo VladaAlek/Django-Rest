@@ -21,4 +21,4 @@ def addItem(request):
     if serializer.is_valid():
         serializer.save()
 
-    return Responce(serializer.data)
+    return Response(serializer.data)
