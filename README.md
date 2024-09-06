@@ -24,3 +24,8 @@ displaying data in public API or within the project
 
 #### create/populate db
 - python manage.py shell
+- from base.models import Item
+- Item.objects.create(name="Item #1")
+- check DB content 1) iterate items = Item.objects.all() 2) print(items)
+exit()
+
